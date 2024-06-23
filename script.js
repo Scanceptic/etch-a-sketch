@@ -7,6 +7,6 @@ const makeSquare = function (num) {
     return square;
 }
 
-for (let i=1; i <= 16; i++) {
+for (let i=1; i <= 16*16; i++) {
     etch.appendChild(makeSquare(i));
 }
