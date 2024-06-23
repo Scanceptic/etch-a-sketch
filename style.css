@@ -11,6 +11,15 @@ body {
     margin-bottom: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 10%;
+    background-color: lightsalmon;
+}
+
+.content {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -20,6 +29,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: auto;
+    background-color: lightsalmon;
 }
 
 #etch {
@@ -28,15 +38,31 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 20px 15%;
-    height: 60vh;
+    height: 800px;
+    width: 800px;
 }
 
 .square {
     box-sizing: border-box;
-    width: 6.25%;
-    height: 6.25%;
+    aspect-ratio: 1/1;
+    width: auto;
+    height: auto;
     margin: 0;
     padding: 0;
     text-align: center;
     border: 1px solid black;
+}
+
+#newsquare {
+    background-color: rgb(255, 100, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+}
+
+#newsquare:hover {
+    background-color: rgb(255,200,255);
+    color: black;
 }
