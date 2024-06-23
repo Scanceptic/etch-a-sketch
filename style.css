@@ -32,9 +32,11 @@ body {
 }
 
 .square {
+    box-sizing: border-box;
     width: 6.25%;
     height: 6.25%;
     margin: 0;
     padding: 0;
     text-align: center;
+    border: 1px solid black;
 }
